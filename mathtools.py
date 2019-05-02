@@ -10,12 +10,15 @@ def isPrime(n):
             return False
     return True
 
+
 def factorial(n):
     '''returns the factorial of a number'''
     if n == 0:
         return 1
     else:
         return n * factorial(n-1)
+
+
 
 def fib(n):
     ''' Calculates the n value of the fibonacci sequence'''
